@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    background-position: center;
+    line-height: 32px;
+}
+
+header {
+    height: 500px;
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.headimg {
+    width: 100%;
+    height: 500px;
+}
+
+header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, 0.3));
+}   
+
+.profile {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    flex-direction: column;
+    position: absolute;   
+    transform: translateY(-50%);
+    left: 20px;
+    right: 20px;
+    border-radius: 5px;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.profile p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.profile p strong {
+    font-weight: bold;
+}
+
+.profile p i {
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    padding: 60px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 66.67%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+ 
+}
+
+h2.first {
+    margin-top: 0;
+}
+
+h2 a {
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+.text-content {
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+    color: rgb(51, 51, 51);   
+    font-family: "Source Sans Pro", sans-serif;  
+
+}
+
+.recommendation {
+    font-weight: bold;
+}
+
+.image-content {
+  
+    height: calc(500px - 40px);
+    background-color: #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mainbod {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+.number{
+    padding-right: 40px;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+}
